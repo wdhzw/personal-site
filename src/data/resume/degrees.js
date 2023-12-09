@@ -1,15 +1,16 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'National Universify of Singapore',
+    degree: 'M.S. Computer Science',
+    link: 'https://nus.edu.sg/',
+    year: 2023,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'National University of Singapore',
+    degree: 'B.S. Electrical Engineering',
+    link: 'https://nus.edu.sg/',
+    year: 2019,
+    gpa: 'GPA: 4.63/5',
   },
 ];
 
