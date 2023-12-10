@@ -19,9 +19,9 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>I am currently a <a href="https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/">NUS MComp</a> student,
+      <p>I am currently a <a href="https://www.comp.nus.edu.sg/programmes/pg/mcomp-gen/">NUS MComp</a> student.
         Previously, I graduated from <a href="https://cde.nus.edu.sg/ece/">ECE, NUS</a>, where I specialized in
-        the Research Focus pathway and graduated with the highest distinction.
+        the Research Focus Pathway and graduated with the highest distinction.
         I am passionate about developing innovative solutions in machine learning and
         software development.
       </p>
