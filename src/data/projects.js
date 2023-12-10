@@ -20,7 +20,6 @@ const data = [
   },
   {
     title: 'ThermoEdgeNet',
-    link: 'http://www.spacepotato.org',
     image: '/images/projects/una.png',
     date: '2023-06',
     desc:
