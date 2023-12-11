@@ -16,8 +16,8 @@ const work = [
     name: 'UnaBiz',
     position: 'Machine Learning Intern',
     url: 'https://unabiz.com',
-    startDate: 'April 2023',
-    endDate: 'July 2023',
+    startDate: '2023-04',
+    endDate: '2023-07',
     highlights: [
       'Constructed a data pipeline for thermal image data, tailored for edge device constraints.',
       'Developed and deployed a compact 85 KB machine learning model using TensorFlow Lite on tCam-mini for edge computing.',
@@ -28,8 +28,8 @@ const work = [
     name: 'Huawei Singapore Research Center',
     position: 'Research Intern',
     url: 'https://www.huawei.com/sg', // Replace with the actual URL if different
-    startDate: 'July 2021',
-    endDate: 'Dec 2021',
+    startDate: '2021-07',
+    endDate: '2021-12',
     highlights: [
       'Assisted in implementing algorithms to extract heartbeat waveform and respiration waveform using millimeter wave radar.',
       'Conducted industry and technical research on recent trends of wearable health devices.',
