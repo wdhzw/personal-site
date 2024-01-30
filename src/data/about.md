@@ -10,17 +10,10 @@ I received a full scholarship from the Ministry of Education (Singapore) and NUS
 
 - Seeing the world
 - Edward Yang‘s movies
+- Neil Young's songs
 - Workouts
 - Reading
-- Music
 - Autumn
-
-#To do list
-
-- Learn playing drum
-- Learn boxing
-- Find a "good" job
-- Experience new experiences
 
 
 
