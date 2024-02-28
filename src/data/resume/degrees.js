@@ -4,6 +4,7 @@ const degrees = [
     degree: 'M.S. Computer Science',
     link: 'https://nus.edu.sg/',
     year: 2023,
+    gpa: 'GPA: 4.25/5',
   },
   {
     school: 'National University of Singapore',
