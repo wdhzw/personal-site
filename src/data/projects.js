@@ -1,6 +1,15 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Film Recommender System',
+    subtitle: 'CS5224 Cloud Computing Project',
+    link: 'https://github.com/wdhzw/Film-Recommender',
+    image: '/images/projects/film_recommender.png',
+    date: '2024-04-01',
+    desc:
+      'A film recommender system that provides personalized recommendations to users based on their preferences and viewing history.',
+  },
+  {
     title: 'SkillSync',
     subtitle: 'IT5007 Software Engineering Project',
     link: 'https://github.com/wdhzw/Skillsync',
