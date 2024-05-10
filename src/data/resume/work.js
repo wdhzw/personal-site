@@ -13,21 +13,44 @@
  */
 const work = [
   {
+    name: 'Mind Stretcher Education',
+    position: 'FullStack Developer Intern',
+    url: '', // Add the company website URL if available
+    startDate: '2024-01',
+    endDate: '2024-04', // Assuming the position is still active
+    highlights: [
+      'Developed RESTful APIs, front-end components, and backend database migration scripts for an educational AI LLM bot. Utilized Next.js for the front end and FastAPI for the backend.',
+      'Conducted testing of various LLM models to determine the optimal performance for our AI bot.',
+      'Collaborated with product designers and the business team on the development',
+    ],
+  },
+  {
     name: 'UnaBiz',
-    position: 'Machine Learning Intern',
+    position: 'Machine Learning Engineer Intern',
     url: 'https://unabiz.com',
     startDate: '2023-04',
     endDate: '2023-07',
     highlights: [
-      'Constructed a data pipeline for thermal image data, tailored for edge device constraints.',
-      'Developed and deployed a compact 85 KB machine learning model using TensorFlow Lite on tCam-mini for edge computing.',
-      'Developed a front-end web interface using HTML, integrated with a Flask server for handling data received via HTTP protocol from the tCam-mini, facilitating real-time visualization of human detection results.',
+      'Developed a computer vision model for detecting humans using an tCam-mini, achieving 93% accuracy with TensorFlow for building the model and TensorFlow Lite for on-device deployment.',
+      'Set up a Python data pipeline for automatic image collection, labeling, preprocessing, and augmentation to create a strong dataset for model training.',
+      'Programmed the tCam-mini in C++ for making real-time prediction using the model inference, integrating InfluxDB Cloud database for data storage on cloud and a Flask server for real-time data receiving and display on a web page.',
+    ],
+  },
+  {
+    name: 'Ubicomp Lab, National University of Singapore',
+    position: 'Undergraduate Research Assistant',
+    url: '', // Add the lab website URL if available
+    startDate: '2022-05',
+    endDate: '2022-07',
+    highlights: [
+      'Created an efficient data pipeline using Numpy and Pandas to clean, augment, and visualize the raw IMU data from 30 participants.',
+      'Assisted in implementing deep learning models using TensorFlow to classify 10 different face-touching activities.',
     ],
   },
   {
     name: 'Huawei Singapore Research Center',
     position: 'Research Intern',
-    url: 'https://www.huawei.com/sg', // Replace with the actual URL if different
+    url: 'https://www.huawei.com/sg',
     startDate: '2021-07',
     endDate: '2021-12',
     highlights: [
