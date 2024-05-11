@@ -4,10 +4,6 @@
 
 import '@testing-library/jest-dom';
 import '@testing-library/react';
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { act } from 'react-dom/test-utils';
-import App from '../App';
 
 describe('App', () => {
   let container = null;
