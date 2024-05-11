@@ -4,25 +4,35 @@
 
 import '@testing-library/jest-dom';
 import '@testing-library/react';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { act } from 'react-dom/test-utils';
+import App from '../App';
 
-describe('App', () => {
-  let container = null;
+describe('renders the app', () => {
+  // mocks the fetch API used on the stats page and the about page.
+  const jsonMock = jest.fn(() => Promise.resolve({}));
+  const textMock = jest.fn(() => Promise.resolve(''));
+  global.fetch = jest.fn(() => Promise.resolve({
+    json: jsonMock,
+    text: textMock,
+  }));
+  // mocks the scrollTo API used when navigating to a new page.
+  window.scrollTo = jest.fn();
 
-  beforeEach(() => {
-    // setup a DOM element as a render target
+  let container;
+
+  beforeEach(async () => {
     container = document.createElement('div');
     document.body.appendChild(container);
+    await act(async () => {
+      await ReactDOM.createRoot(container).render(<App />);
+    });
   });
 
   afterEach(() => {
-    // cleanup on exiting
-    unmountComponentAtNode(container);
-    container.remove();
+    document.body.removeChild(container);
     container = null;
-
-    global.fetch.mockClear();
-    delete global.fetch;
-
-    window.scrollTo.mockClear();
+    jest.clearAllMocks();
   });
 });
